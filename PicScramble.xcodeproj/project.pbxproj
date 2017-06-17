@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9B50A8F9A2A606C52B8BE7FF /* Pods_PicScramble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A314D8BFD9DA26517244D476 /* Pods_PicScramble.framework */; };
+		A344CAEECD8EA71BBBB6BB74 /* Pods_PicScrambleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B5E8BD2E9163317900D3C9B /* Pods_PicScrambleTests.framework */; };
 		C982181A1EF0654E00255ED4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98218191EF0654E00255ED4 /* AppDelegate.swift */; };
 		C982181C1EF0654E00255ED4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C982181B1EF0654E00255ED4 /* ViewController.swift */; };
 		C982181F1EF0654E00255ED4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C982181D1EF0654E00255ED4 /* Main.storyboard */; };
@@ -26,6 +28,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1A14A58389811920016FBF8B /* Pods-PicScrambleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PicScrambleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PicScrambleTests/Pods-PicScrambleTests.debug.xcconfig"; sourceTree = "<group>"; };
+		1AFB422A3A977B91A10F70DE /* Pods-PicScramble.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PicScramble.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PicScramble/Pods-PicScramble.debug.xcconfig"; sourceTree = "<group>"; };
+		7B5E8BD2E9163317900D3C9B /* Pods_PicScrambleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PicScrambleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8E6CEBEDFDBAB1956262E825 /* Pods-PicScrambleTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PicScrambleTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-PicScrambleTests/Pods-PicScrambleTests.release.xcconfig"; sourceTree = "<group>"; };
+		A314D8BFD9DA26517244D476 /* Pods_PicScramble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PicScramble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C98218161EF0654E00255ED4 /* PicScramble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PicScramble.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C98218191EF0654E00255ED4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C982181B1EF0654E00255ED4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,6 +43,7 @@
 		C982182A1EF0654E00255ED4 /* PicScrambleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicScrambleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C982182E1EF0654E00255ED4 /* PicScrambleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicScrambleTests.swift; sourceTree = "<group>"; };
 		C98218301EF0654E00255ED4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E6BB6567ADB08634E7B8BEFC /* Pods-PicScramble.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PicScramble.release.xcconfig"; path = "Pods/Target Support Files/Pods-PicScramble/Pods-PicScramble.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +51,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9B50A8F9A2A606C52B8BE7FF /* Pods_PicScramble.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -50,18 +59,41 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A344CAEECD8EA71BBBB6BB74 /* Pods_PicScrambleTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		18B2C4B03D6D21B3681B8AF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A314D8BFD9DA26517244D476 /* Pods_PicScramble.framework */,
+				7B5E8BD2E9163317900D3C9B /* Pods_PicScrambleTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6583ED960923966AC217EF0C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1AFB422A3A977B91A10F70DE /* Pods-PicScramble.debug.xcconfig */,
+				E6BB6567ADB08634E7B8BEFC /* Pods-PicScramble.release.xcconfig */,
+				1A14A58389811920016FBF8B /* Pods-PicScrambleTests.debug.xcconfig */,
+				8E6CEBEDFDBAB1956262E825 /* Pods-PicScrambleTests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		C982180D1EF0654E00255ED4 = {
 			isa = PBXGroup;
 			children = (
 				C98218181EF0654E00255ED4 /* PicScramble */,
 				C982182D1EF0654E00255ED4 /* PicScrambleTests */,
 				C98218171EF0654E00255ED4 /* Products */,
+				6583ED960923966AC217EF0C /* Pods */,
+				18B2C4B03D6D21B3681B8AF5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,9 +135,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C98218331EF0654E00255ED4 /* Build configuration list for PBXNativeTarget "PicScramble" */;
 			buildPhases = (
+				B224E5755D28672BB2D54297 /* [CP] Check Pods Manifest.lock */,
 				C98218121EF0654E00255ED4 /* Sources */,
 				C98218131EF0654E00255ED4 /* Frameworks */,
 				C98218141EF0654E00255ED4 /* Resources */,
+				69EB44AE23A539B525F76066 /* [CP] Embed Pods Frameworks */,
+				45A5CDA6D01330CFCBD99D85 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -120,9 +155,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C98218361EF0654E00255ED4 /* Build configuration list for PBXNativeTarget "PicScrambleTests" */;
 			buildPhases = (
+				0E98E61B9110F40133688140 /* [CP] Check Pods Manifest.lock */,
 				C98218261EF0654E00255ED4 /* Sources */,
 				C98218271EF0654E00255ED4 /* Frameworks */,
 				C98218281EF0654E00255ED4 /* Resources */,
+				277F2BF1AEEC11FD9CB61FB5 /* [CP] Embed Pods Frameworks */,
+				1646BDF291AD0F21B5B6994C /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -195,6 +233,99 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0E98E61B9110F40133688140 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		1646BDF291AD0F21B5B6994C /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PicScrambleTests/Pods-PicScrambleTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		277F2BF1AEEC11FD9CB61FB5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PicScrambleTests/Pods-PicScrambleTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		45A5CDA6D01330CFCBD99D85 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PicScramble/Pods-PicScramble-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		69EB44AE23A539B525F76066 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-PicScramble/Pods-PicScramble-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B224E5755D28672BB2D54297 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		C98218121EF0654E00255ED4 /* Sources */ = {
@@ -341,7 +472,9 @@
 		};
 		C98218341EF0654E00255ED4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1AFB422A3A977B91A10F70DE /* Pods-PicScramble.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7L6554WU68;
 				INFOPLIST_FILE = PicScramble/Info.plist;
@@ -354,7 +487,9 @@
 		};
 		C98218351EF0654E00255ED4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6BB6567ADB08634E7B8BEFC /* Pods-PicScramble.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 7L6554WU68;
 				INFOPLIST_FILE = PicScramble/Info.plist;
@@ -367,8 +502,9 @@
 		};
 		C98218371EF0654E00255ED4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A14A58389811920016FBF8B /* Pods-PicScrambleTests.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 7L6554WU68;
 				INFOPLIST_FILE = PicScrambleTests/Info.plist;
@@ -382,8 +518,9 @@
 		};
 		C98218381EF0654E00255ED4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E6CEBEDFDBAB1956262E825 /* Pods-PicScrambleTests.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = "$(inherited)";
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				DEVELOPMENT_TEAM = 7L6554WU68;
 				INFOPLIST_FILE = PicScrambleTests/Info.plist;
@@ -414,6 +551,7 @@
 				C98218351EF0654E00255ED4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C98218361EF0654E00255ED4 /* Build configuration list for PBXNativeTarget "PicScrambleTests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +560,7 @@
 				C98218381EF0654E00255ED4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
