@@ -3,11 +3,12 @@ platform :ios, '9.0'
 
 # Our Libraries
 def libraries
-    pod 'AlamofireImage', '~> 3.2'
-    pod 'PopupDialog', '~> 0.5'
-    pod 'KGProgress', '~> 0.1'
-    pod 'StatefulViewController', '~> 3.0'
+    pod 'AlamofireImage'
+    pod 'PopupDialog'
+    pod 'KGProgress'
+    pod 'StatefulViewController'
     pod 'SwiftMessages'
+    pod 'AlamofireObjectMapper', '~> 4.0'
 end
 
 # Test Libraries

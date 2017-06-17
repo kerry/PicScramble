@@ -7,14 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D7F8AE71EF5795F003309D9 /* PicCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D7F8AE61EF5795F003309D9 /* PicCollectionViewCell.swift */; };
 		9B50A8F9A2A606C52B8BE7FF /* Pods_PicScramble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A314D8BFD9DA26517244D476 /* Pods_PicScramble.framework */; };
 		A344CAEECD8EA71BBBB6BB74 /* Pods_PicScrambleTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B5E8BD2E9163317900D3C9B /* Pods_PicScrambleTests.framework */; };
 		C982181A1EF0654E00255ED4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98218191EF0654E00255ED4 /* AppDelegate.swift */; };
-		C982181C1EF0654E00255ED4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C982181B1EF0654E00255ED4 /* ViewController.swift */; };
 		C982181F1EF0654E00255ED4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C982181D1EF0654E00255ED4 /* Main.storyboard */; };
 		C98218211EF0654E00255ED4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C98218201EF0654E00255ED4 /* Assets.xcassets */; };
 		C98218241EF0654E00255ED4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C98218221EF0654E00255ED4 /* LaunchScreen.storyboard */; };
 		C982182F1EF0654E00255ED4 /* PicScrambleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C982182E1EF0654E00255ED4 /* PicScrambleTests.swift */; };
+		D83A20A9B0A717EC373DD552 /* HomeInteractorInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83A2802F343DF6A1EFD774F /* HomeInteractorInput.swift */; };
+		D83A236E284BB0A6D3ABD20E /* AppSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83A23A433E5CEEE5152EC78 /* AppSettings.swift */; };
+		D83A239104B234C042D84F64 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83A286BEF83BB0C3AE35635 /* HomePresenter.swift */; };
+		D83A2B2AEF8071985BA7C699 /* NetworkingProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83A2CC61CC62549CA4FA8C4 /* NetworkingProtocol.swift */; };
+		D83A2B4FA9F481A31C96BCFE /* HomeViewInput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83A241F476F6545E6A768AA /* HomeViewInput.swift */; };
+		D83A2BE52D87643C1993E464 /* HomeViewOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83A2F61A5CFEB3F059BFB71 /* HomeViewOutput.swift */; };
+		D83A2C782DD7D1444420FDD5 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83A22ECA50496BD4DF664AE /* HomeInteractor.swift */; };
+		D83A2C91159F59BEE25A4BEE /* FlickrImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83A2E1CAA0670CF729A7CCD /* FlickrImage.swift */; };
+		D83A2D83FBA7A86A9CEA9B06 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83A2B4D8721D9F1D171E867 /* HomeViewController.swift */; };
+		D83A2DCFF9376DCE67FC04DC /* HomeInteractorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83A297F87ABBFC6AF0D9079 /* HomeInteractorOutput.swift */; };
+		D83A2F618CE9013CB750F4AC /* Networking.swift in Sources */ = {isa = PBXBuildFile; fileRef = D83A2A32FD9B1DE04CAA5C01 /* Networking.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D7F8AE61EF5795F003309D9 /* PicCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicCollectionViewCell.swift; sourceTree = "<group>"; };
 		1A14A58389811920016FBF8B /* Pods-PicScrambleTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PicScrambleTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PicScrambleTests/Pods-PicScrambleTests.debug.xcconfig"; sourceTree = "<group>"; };
 		1AFB422A3A977B91A10F70DE /* Pods-PicScramble.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PicScramble.debug.xcconfig"; path = "Pods/Target Support Files/Pods-PicScramble/Pods-PicScramble.debug.xcconfig"; sourceTree = "<group>"; };
 		7B5E8BD2E9163317900D3C9B /* Pods_PicScrambleTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PicScrambleTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -35,7 +47,6 @@
 		A314D8BFD9DA26517244D476 /* Pods_PicScramble.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_PicScramble.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C98218161EF0654E00255ED4 /* PicScramble.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PicScramble.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C98218191EF0654E00255ED4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C982181B1EF0654E00255ED4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C982181E1EF0654E00255ED4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C98218201EF0654E00255ED4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C98218231EF0654E00255ED4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -43,6 +54,17 @@
 		C982182A1EF0654E00255ED4 /* PicScrambleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PicScrambleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C982182E1EF0654E00255ED4 /* PicScrambleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PicScrambleTests.swift; sourceTree = "<group>"; };
 		C98218301EF0654E00255ED4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D83A22ECA50496BD4DF664AE /* HomeInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		D83A23A433E5CEEE5152EC78 /* AppSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppSettings.swift; sourceTree = "<group>"; };
+		D83A241F476F6545E6A768AA /* HomeViewInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewInput.swift; sourceTree = "<group>"; };
+		D83A2802F343DF6A1EFD774F /* HomeInteractorInput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeInteractorInput.swift; sourceTree = "<group>"; };
+		D83A286BEF83BB0C3AE35635 /* HomePresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		D83A297F87ABBFC6AF0D9079 /* HomeInteractorOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeInteractorOutput.swift; sourceTree = "<group>"; };
+		D83A2A32FD9B1DE04CAA5C01 /* Networking.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Networking.swift; sourceTree = "<group>"; };
+		D83A2B4D8721D9F1D171E867 /* HomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		D83A2CC61CC62549CA4FA8C4 /* NetworkingProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkingProtocol.swift; sourceTree = "<group>"; };
+		D83A2E1CAA0670CF729A7CCD /* FlickrImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlickrImage.swift; sourceTree = "<group>"; };
+		D83A2F61A5CFEB3F059BFB71 /* HomeViewOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeViewOutput.swift; sourceTree = "<group>"; };
 		E6BB6567ADB08634E7B8BEFC /* Pods-PicScramble.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-PicScramble.release.xcconfig"; path = "Pods/Target Support Files/Pods-PicScramble/Pods-PicScramble.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -110,11 +132,13 @@
 			isa = PBXGroup;
 			children = (
 				C98218191EF0654E00255ED4 /* AppDelegate.swift */,
-				C982181B1EF0654E00255ED4 /* ViewController.swift */,
 				C982181D1EF0654E00255ED4 /* Main.storyboard */,
 				C98218201EF0654E00255ED4 /* Assets.xcassets */,
 				C98218221EF0654E00255ED4 /* LaunchScreen.storyboard */,
 				C98218251EF0654E00255ED4 /* Info.plist */,
+				D83A256D5893C45DF5D345AC /* Home */,
+				D83A22A905FC80DC9324360B /* Networking */,
+				D83A23A433E5CEEE5152EC78 /* AppSettings.swift */,
 			);
 			path = PicScramble;
 			sourceTree = "<group>";
@@ -126,6 +150,79 @@
 				C98218301EF0654E00255ED4 /* Info.plist */,
 			);
 			path = PicScrambleTests;
+			sourceTree = "<group>";
+		};
+		D83A217DC21161F3036B2FA4 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		D83A22172F99A03F19C0EBA6 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				D83A22ECA50496BD4DF664AE /* HomeInteractor.swift */,
+				D83A2802F343DF6A1EFD774F /* HomeInteractorInput.swift */,
+				D83A297F87ABBFC6AF0D9079 /* HomeInteractorOutput.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		D83A22A905FC80DC9324360B /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				D83A2A32FD9B1DE04CAA5C01 /* Networking.swift */,
+				D83A2CC61CC62549CA4FA8C4 /* NetworkingProtocol.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		D83A23AD506FED161093BB3F /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				D83A286BEF83BB0C3AE35635 /* HomePresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		D83A251A9455DC85EE1659FC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				D83A2B4D8721D9F1D171E867 /* HomeViewController.swift */,
+				D83A241F476F6545E6A768AA /* HomeViewInput.swift */,
+				D83A2F61A5CFEB3F059BFB71 /* HomeViewOutput.swift */,
+				0D7F8AE61EF5795F003309D9 /* PicCollectionViewCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D83A256D5893C45DF5D345AC /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				D83A251A9455DC85EE1659FC /* View */,
+				D83A23AD506FED161093BB3F /* Presenter */,
+				D83A22172F99A03F19C0EBA6 /* Interactor */,
+				D83A2F1E45474E9DBB0136CC /* Router */,
+				D83A217DC21161F3036B2FA4 /* Configurator */,
+				D83A2B62D92F92EC9E79FBAC /* Entity */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		D83A2B62D92F92EC9E79FBAC /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				D83A2E1CAA0670CF729A7CCD /* FlickrImage.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		D83A2F1E45474E9DBB0136CC /* Router */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Router;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -332,8 +429,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C982181C1EF0654E00255ED4 /* ViewController.swift in Sources */,
+				0D7F8AE71EF5795F003309D9 /* PicCollectionViewCell.swift in Sources */,
 				C982181A1EF0654E00255ED4 /* AppDelegate.swift in Sources */,
+				D83A2D83FBA7A86A9CEA9B06 /* HomeViewController.swift in Sources */,
+				D83A2B4FA9F481A31C96BCFE /* HomeViewInput.swift in Sources */,
+				D83A2BE52D87643C1993E464 /* HomeViewOutput.swift in Sources */,
+				D83A239104B234C042D84F64 /* HomePresenter.swift in Sources */,
+				D83A2C782DD7D1444420FDD5 /* HomeInteractor.swift in Sources */,
+				D83A20A9B0A717EC373DD552 /* HomeInteractorInput.swift in Sources */,
+				D83A2F618CE9013CB750F4AC /* Networking.swift in Sources */,
+				D83A2B2AEF8071985BA7C699 /* NetworkingProtocol.swift in Sources */,
+				D83A2DCFF9376DCE67FC04DC /* HomeInteractorOutput.swift in Sources */,
+				D83A2C91159F59BEE25A4BEE /* FlickrImage.swift in Sources */,
+				D83A236E284BB0A6D3ABD20E /* AppSettings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
