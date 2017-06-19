@@ -7,4 +7,6 @@ import Foundation
 
 protocol HomeViewOutput: class {
     func viewIsReady()
+    func actionButtonClicked()
+    func answerQuestion(indexSelected: Int)
 }

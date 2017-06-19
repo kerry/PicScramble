@@ -10,5 +10,5 @@ import ObjectMapper
 protocol NetworkingProtocol {
     associatedtype T
     func get<T:Mappable>(_ url: String,
-                         completionHandler: @escaping ([T]?, Error?) -> Void) -> Alamofire.Request
+                         completionHandler: @escaping (T?, Error?) -> Void) -> Alamofire.Request
 }

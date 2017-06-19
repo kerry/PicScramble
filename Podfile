@@ -9,6 +9,7 @@ def libraries
     pod 'StatefulViewController'
     pod 'SwiftMessages'
     pod 'AlamofireObjectMapper', '~> 4.0'
+    pod 'Swinject', :git => 'https://github.com/Swinject/Swinject.git', :branch => 'swift4'
 end
 
 # Test Libraries

@@ -13,7 +13,7 @@ class Networking {
     
     typealias T = Mappable
     func get<T:Mappable>(_ url: String,
-                         completionHandler: @escaping ([T]?, Error?) -> Void) -> Alamofire.Request {
+                         completionHandler: @escaping (T?, Error?) -> Void) -> Alamofire.Request {
 
         let fullUrl = AppSettings.NetworkSettings.flickrPublicUrl
 
@@ -22,20 +22,13 @@ class Networking {
         
         return Alamofire.request(urlRequest)
                 .validate()
-                .responseArray { [weak self] (response: DataResponse<[T]>) in
+                .responseObject {(response: DataResponse<T>) in
                     switch response.result {
                     case .success(let result):
                         completionHandler(result, nil)
                         break
-                    case .failure(_):
-//                        let errorResponse = ErrorResponse()
-//                        if let httpStatusCode = response.response?.statusCode {
-//                            errorResponse.code = String(httpStatusCode)
-//                            if let strongSelf = self {
-//                                errorResponse.errorType = strongSelf.mapHTTPCodeToNetworkErrorEnum(statusCode: httpStatusCode)
-//                            }
-//                        }
-                        completionHandler(nil, nil)
+                    case .failure(let error):
+                        completionHandler(nil, error)
                         break
                     }
                 }

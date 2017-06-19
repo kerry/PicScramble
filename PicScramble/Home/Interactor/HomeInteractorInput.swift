@@ -5,6 +5,6 @@
 
 import Foundation
 
-protocol HomeInteractorInput: class {
+protocol HomeInteractorInput {
     func fetchImages()
 }

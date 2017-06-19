@@ -5,7 +5,7 @@
 
 import Foundation
 
-protocol HomeInteractorOutput {
+protocol HomeInteractorOutput: class {
     func fetchedImages(images: [FlickrImage])
     func errorfetchingImages(error: Error)
 }
